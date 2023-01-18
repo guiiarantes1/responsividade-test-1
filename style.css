@@ -148,3 +148,77 @@ body {
     padding: 6px 0 6px 0;
   color: var(--bright-orange);
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .container {      
+        padding: 22vh 8vw 0 8vw;
+      }
+      .sedans {   
+        padding: 3vh 3.5vw;
+      }
+      .sedanButton {
+        margin-top: 30px;
+      }
+      .suvs {   
+        padding: 3vh 3.5vw;
+      }
+      .suvsButton {
+        margin-top: 30px;
+      }
+      .luxury {   
+        padding: 3vh 3.5vw;
+      }
+      .luxuryButton {
+        margin-top: 30px;
+      }
+
+}
+
+
+@media (min-width: 425px) and (max-width: 767px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 70px auto !important;
+        color: white;
+        padding: 0;
+        
+      }
+      .sedans {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px 10px 0 0;
+        width: 72%;
+        padding: 5vh 10vw;    
+      }
+      .sedanButton {
+        margin-top: 25px;
+      }
+      .suvs {
+        display: flex;
+        flex-direction: column;
+          width: 72%;
+        padding: 5vh 10vw;    
+      }
+      .suvsButton {
+        margin-top: 25px;
+      }
+      .luxury {
+        display: flex;
+        flex-direction: column;
+        border-radius: 0 0 10px 10px ;
+        width: 72%;
+        padding: 5vh 10vw;    
+      }
+      .luxuryButton {
+        margin-top: 25px;
+      }
+}
+
+
+@media (max-width: 424px){
+    
+}
