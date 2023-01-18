@@ -69,34 +69,37 @@ body {
 }
 
 .suvs img {
-  width: 75px;
+    width: 65px;
 }
 .suvs h1 {
-  padding: 30px 0 30px 0;
-  font-size: 2.8rem;
-  font-family: "Big Shoulders Display", cursive;
+    padding: 37px 0 30px 0;
+    font-size: 2.5rem;
+    font-family: "Big Shoulders Display", cursive;
 }
 .suvs p {
-  font-size: 1rem;
-  line-height: 1.8rem;
-  width: 80%;
-  font-family: "Lexend Deca", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    width: 95%;
+    height: 40%;
+    font-family: "Lexend Deca", sans-serif;
 }
 
 .suvsButton {
-  background-color: white;
-  border: none;
-  border-radius: 30px;
-  width: 180px;
-  display: flex;
-  justify-self: center;
-  align-items: center;
-
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    width: 155px; 
+    height: fit-content; 
+    margin-top: 78px;
 }
 .suvsButton p {
-  margin: auto;
-  font-size: 1.1rem;
-  padding: 1.5vh 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1rem;
+    margin: 5px 0 5px 5px;
+    padding: 6px 0 6px 0;
   color: var(--bright-orange);
 }
 
@@ -111,33 +114,37 @@ body {
 }
 
 .luxury img {
-  width: 75px;
+    width: 65px;
 }
 .luxury h1 {
-  padding: 30px 0 30px 0;
-  font-size: 2.8rem;
-  font-family: "Big Shoulders Display", cursive;
+    padding: 37px 0 30px 0;
+    font-size: 2.5rem;
+    font-family: "Big Shoulders Display", cursive;
 }
 .luxury p {
-  font-size: 1rem;
-  line-height: 1.8rem;
-  width: 80%;
-  font-family: "Lexend Deca", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    width: 95%;
+    height: 40%;
+    font-family: "Lexend Deca", sans-serif;
 }
 
 .luxuryButton {
-  background-color: white;
-  border: none;
-  border-radius: 30px;
-  width: 180px;
-  display: flex;
-  justify-self: center;
-  align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    width: 155px; 
+    height: fit-content; 
+    margin-top: 78px;
 
 }
 .luxuryButton p {
-  margin: auto;
-  font-size: 1.1rem;
-  padding: 1.5vh 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1rem;
+    margin: 5px 0 5px 5px;
+    padding: 6px 0 6px 0;
   color: var(--bright-orange);
 }
